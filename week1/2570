@@ -1,0 +1,12 @@
+a = int(input())
+num = []
+
+for i in range(a):
+    num.append(int(input()))
+
+num.sort()
+
+print('<output>')
+
+for j in num:
+    print(j)
