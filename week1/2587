@@ -1,0 +1,12 @@
+num = []
+
+for i in range(5):
+    num.append(int(input()))
+
+num.sort()
+
+avg = int(sum(num)) / 5
+mid = num[2]
+
+print(int(avg))
+print(mid)
