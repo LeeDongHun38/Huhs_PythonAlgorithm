@@ -1,3 +1,19 @@
+# 원래 코드 -> 메모리 초과로 error 발생
+# for문을 돌려 반복적으로 append해주는 방식은 메모리를 필요 이상으로 많이 소요한다.
+
+'''
+a = int(input())
+num = []
+
+for i in range(a):
+    num.append(int(input()))
+
+num.sort()
+
+for i in num:
+    print(i)
+'''
+
 import sys
 
 a = int(sys.stdin.readline())   # 한개의 정수를 입력받는 방법
